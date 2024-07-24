@@ -3,6 +3,7 @@
     margin: 0;
 }
 
+/*header*/
 header{
     background-color: #1F2937;
     color: #E5E7EB;
@@ -55,3 +56,30 @@ header{
     margin-top: 10px;
 }
 
+/*boxes section*/
+.pictures-section .heading{
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.pictures-section .picture-boxes{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+
+.picture-boxes div{
+    width: 140px;
+}
+
+.picture-boxes div img{
+    width: 100%;
+    border: #3882F6 solid;
+    border-radius: 10px;
+}
