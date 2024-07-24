@@ -125,3 +125,11 @@ header{
     border-style: solid;
     border-color: #F9FAF8;
 }
+
+/*footer*/
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
