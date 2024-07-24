@@ -1,0 +1,27 @@
+header{
+    background-color: #1F2937;
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation span{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.navigation ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 17px;
+}
+
+.header-content{
+    display: flex;
+    
+}
