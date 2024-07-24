@@ -46,7 +46,7 @@ header{
 .header-content .right img{
     width: 400px;
 }
-.header-content .left button{
+.header-content .left button, .box .right button{
     background-color: #3882F6;
     border-radius: 5px;
     border-style: initial;
@@ -100,4 +100,28 @@ header{
     font-weight: bold;
     font-size: 24px;
     align-self: flex-end;
+}
+
+/*sign up section*/
+.signUp-section{
+    padding: 70px 120px;
+}
+.signUp-section .box{
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #F9FAF8;
+    padding: 30px 100px;
+    border-radius: 5px;
+}
+
+.action{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#white-button{
+    border-style: solid;
+    border-color: #F9FAF8;
 }
