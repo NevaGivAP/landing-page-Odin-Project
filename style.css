@@ -83,3 +83,21 @@ header{
     border: #3882F6 solid;
     border-radius: 10px;
 }
+
+/*quote section*/
+.quote-section{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 170px;
+}
+
+.quote-section .thor{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+}
